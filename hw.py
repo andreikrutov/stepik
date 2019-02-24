@@ -11,8 +11,8 @@
 Слова, написанные в разных регистрах, считаются одинаковыми.
 '''
 #задача про наиболее часто встречающееся слово
-slov={}
 lst=[]
+slov={}
 with open('e:\\Stepik\python\dataset_3363_3_3.txt','r') as f:
     for string in f.readlines():
         string=string.lower()
